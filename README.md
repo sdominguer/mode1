@@ -1,5 +1,5 @@
 # TOMAR MEDIDAS DE:
-- ### Centro
+- ## Centro
 
 ### Importamos paquetes
 ```R
@@ -34,7 +34,7 @@ moda
 [1] 9.615385
 
 
-- ### Variabilidad
+- ## Variabilidad
 #### Rango
 ```R
 rango<-range(CPSSW9204$earnings)
@@ -71,7 +71,7 @@ coefvar
 [1] 0.5474744
 
 
-- ### Orden
+- ## Orden
 #### Cuantiles
 ```R
 cuantiles<-quantile(CPSSW9204$earnings)
@@ -83,6 +83,19 @@ cuantiles
 | 1.500000 | 8.974359 |12.500000| 17.576495| 61.057690|
 
 
-
+- ## Investigación coeficiente de asimetría de Fisher
+  - Definición: 
+  Se le define como el tercer momento en torno a la media y es la desviación estándar, si la distribución es asimétrica positiva o a la derecha; si la distribución   es asimétrica negativa o a la izquierda.
+  
+  - Interpretación:
+  
+  - Implementación en R 
+  
+  - ¿Qué información da el boxplot con relación a la asimetría de los datos?
+  
+  
+  
+  
+  
 
 

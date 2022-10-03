@@ -106,7 +106,7 @@ cuantiles
   - #### ¿Qué información da el boxplot con relación a la asimetría de los datos?
         - Si la mediana se sitúa en el centro de la caja entonces la distribución es simétrica y tanto la media, mediana y moda coinciden.
         - Si la mediana corta la caja en dos lados desiguales se tiene:
-              - Asimetría positiva o segada a la derecha si la parte más larga de la caja es la parte superior a la mediana. Los datos se concentran en la parte     inferior de la distribución. La media suele ser mayor que la mediana.
+              - Asimetría positiva o segada a la derecha si la parte más larga de la caja es la parte superior a la mediana. Los datos se concentran en la parte inferior de la distribución. La media suele ser mayor que la mediana.
               - Asimetría negativa o sesgada a la izquierda si la parte más larga es la inferior a la mediana. Los datos se concentran en la parte superior de la   distribución. La media suele ser menor que la mediana.
    
   

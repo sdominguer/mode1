@@ -84,16 +84,30 @@ cuantiles
 
 
 - ## Investigación coeficiente de asimetría de Fisher
-  - Definición: 
-  Se le define como el tercer momento en torno a la media y es la desviación estándar, si la distribución es asimétrica positiva o a la derecha; si la distribución   es asimétrica negativa o a la izquierda.
+  - #### Definición: 
+  Las medidas de asimetría son indicadores que permiten establecer el grado de simetría que presenta una distribución de probabilidad de una variable aleatoria sin   tener que hacer su representación gráfica. 
   
-  - Interpretación:
+  - #### Interpretación:
+  Mide el grado de asimetría de la distribución con respecto a la media. Un valor positivo de este indicador significa que la distribución se encuentra sesgada       hacia la izquierda (orientación positiva). Un resultado negativo significa que la distribución se sesga a la derecha. Las dimensiones de la caja está determinada por la distancia del rango intercuartílico, que es la diferencia entre el primer y tercer cuartil.
   
-  - Implementación en R 
+  - #### Implementación en R:
+  Primero debemos instalar la libreria "e1071" la cual contiene la función skewness que nos da el coeficiente de asimétrica de fisher.
+  ```R
+  install.packages("e1071")
+  ```
+  Ahora, utilicemos la función skewness con la variable de salario.
+  ```R
+  asimetria <- skewness(CPSSW9204$earnings, na.rm = TRUE, type = 3)
+  asimetria
+  ```
+  #### Salida:
+  [1] 1.595585
   
-  - ¿Qué información da el boxplot con relación a la asimetría de los datos?
-  
-  
+  - #### ¿Qué información da el boxplot con relación a la asimetría de los datos?
+        - Si la mediana se sitúa en el centro de la caja entonces la distribución es simétrica y tanto la media, mediana y moda coinciden.
+        - Si la mediana corta la caja en dos lados desiguales se tiene:
+              - Asimetría positiva o segada a la derecha si la parte más larga de la caja es la parte superior a la mediana. Los datos se concentran en la parte                     inferior de la distribución. La media suele ser mayor que la mediana.
+              - Asimetría negativa o sesgada a la izquierda si la parte más larga es la inferior a la mediana. Los datos se concentran en la parte superior de la                    distribución. La media suele ser menor que la mediana.
   
   
   

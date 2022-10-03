@@ -88,7 +88,7 @@ cuantiles
   Las medidas de asimetría son indicadores que permiten establecer el grado de simetría que presenta una distribución de probabilidad de una variable aleatoria sin   tener que hacer su representación gráfica. 
   
   - #### Interpretación:
-  Mide el grado de asimetría de la distribución con respecto a la media. Un valor positivo de este indicador significa que la distribución se encuentra sesgada       hacia la izquierda (orientación positiva). Un resultado negativo significa que la distribución se sesga a la derecha. Las dimensiones de la caja está determinada por la distancia del rango intercuartílico, que es la diferencia entre el primer y tercer cuartil.
+  Mide el grado de asimetría de la distribución con respecto a la media. Un valor positivo de este indicador significa que la distribución se encuentra sesgada     hacia la izquierda (orientación positiva). Un resultado negativo significa que la distribución se sesga a la derecha. Las dimensiones de la caja está determinada por la distancia del rango intercuartílico, que es la diferencia entre el primer y tercer cuartil.
   
   - #### Implementación en R:
   Primero debemos instalar la libreria "e1071" la cual contiene la función skewness que nos da el coeficiente de asimétrica de fisher.
@@ -106,9 +106,9 @@ cuantiles
   - #### ¿Qué información da el boxplot con relación a la asimetría de los datos?
         - Si la mediana se sitúa en el centro de la caja entonces la distribución es simétrica y tanto la media, mediana y moda coinciden.
         - Si la mediana corta la caja en dos lados desiguales se tiene:
-              - Asimetría positiva o segada a la derecha si la parte más larga de la caja es la parte superior a la mediana. Los datos se concentran en la parte                     inferior de la distribución. La media suele ser mayor que la mediana.
-              - Asimetría negativa o sesgada a la izquierda si la parte más larga es la inferior a la mediana. Los datos se concentran en la parte superior de la                    distribución. La media suele ser menor que la mediana.
-  
+              - Asimetría positiva o segada a la derecha si la parte más larga de la caja es la parte superior a la mediana. Los datos se concentran en la parte     inferior de la distribución. La media suele ser mayor que la mediana.
+              - Asimetría negativa o sesgada a la izquierda si la parte más larga es la inferior a la mediana. Los datos se concentran en la parte superior de la   distribución. La media suele ser menor que la mediana.
+   
   
   
 

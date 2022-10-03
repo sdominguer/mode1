@@ -111,5 +111,7 @@ cuantiles
    
   
   
-
+#### Fuentes:
+https://www.pgconocimiento.com/diagrama-boxplot/#:~:text=Asimetr%C3%ADa%20positiva%20o%20segada%20a,la%20inferior%20a%20la%20mediana.
+https://estadisticaparatodos.com/medidas-de-forma-en-r/
 
